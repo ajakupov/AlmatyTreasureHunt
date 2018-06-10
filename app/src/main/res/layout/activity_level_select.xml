@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/almaty_level_select"
+    android:id="@+id/activity_level_select"
+    tools:context="fr.gouv.httpdiplomatie.almatytreasurehunt.LevelSelect">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back to Start Page"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:id="@+id/backFromLevelSelect"
+        app:layout_constraintLeft_toLeftOf="@+id/activity_level_select"
+        app:layout_constraintTop_toTopOf="@+id/activity_level_select"
+        app:layout_constraintRight_toRightOf="@+id/activity_level_select"
+        app:layout_constraintBottom_toBottomOf="@+id/activity_level_select"
+        tools:layout_constraintTop_creator="0"
+        tools:layout_constraintRight_creator="0"
+        tools:layout_constraintLeft_creator="0"
+        tools:layout_constraintBottom_creator="0"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintVertical_bias="0.967" />
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/levelListView"
+        android:textAlignment="center"/>
+</android.support.constraint.ConstraintLayout>
